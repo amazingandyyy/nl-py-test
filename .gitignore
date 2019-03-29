@@ -6,3 +6,4 @@ lib
 *.pyc
 newrelic.ini
 *.ini
+app/newrelic.ini
