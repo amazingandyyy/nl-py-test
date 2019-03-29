@@ -1,10 +1,14 @@
 # nl-py-test
 
-> newrelic python agent testing
+newrelic python agent testing
 
 ## Preparation
 
-change your own license key in `app/newrelic.ini`
+follow [docs](https://docs.newrelic.com/docs/agents/python-agent/installation/standard-python-agent-install) to create your `app/newrelic.ini`
+
+```console
+newrelic-admin generate-config YOUR_LICENSE_KEY newrelic.ini
+```
 
 ## Snippets
 
@@ -34,7 +38,6 @@ def call(task_name):
 Non-web tx works!
 
 ![image](https://i.imgur.com/dyZ7mQa.png)
-
 
 ## Links
 

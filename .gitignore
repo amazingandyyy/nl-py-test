@@ -4,3 +4,5 @@ lib
 .Python
 .vscode
 *.pyc
+newrelic.ini
+*.ini
