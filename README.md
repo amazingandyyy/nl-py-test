@@ -7,8 +7,8 @@ newrelic python agent testing
 follow [docs](https://docs.newrelic.com/docs/agents/python-agent/installation/standard-python-agent-install) to create your `app/newrelic.ini`
 
 ```console
-cs app
-newrelic-admin generate-config YOUR_LICENSE_KEY newrelic.ini
+$ cd app
+app $ newrelic-admin generate-config YOUR_LICENSE_KEY newrelic.ini
 ```
 
 ## Development
