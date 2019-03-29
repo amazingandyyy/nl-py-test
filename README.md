@@ -7,7 +7,20 @@ newrelic python agent testing
 follow [docs](https://docs.newrelic.com/docs/agents/python-agent/installation/standard-python-agent-install) to create your `app/newrelic.ini`
 
 ```console
+cs app
 newrelic-admin generate-config YOUR_LICENSE_KEY newrelic.ini
+```
+
+## Development
+
+```console
+$ pip install virtualenv
+$ virtualenv .
+$ . ./bin/activate
+(nl-py-test) pip install -r ./app/requirements.txt
+(nl-py-test) cd app
+(nl-py-test) FLASK_APP=./start.py flask run
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
 ## Snippets
